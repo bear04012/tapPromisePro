@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name" : "Tap Promise",
+    "icon" : "./img/icon.png",
+    "slug" : "mobileTodo",
+    "description": "mobile todo",
+    "version":"0.1.1",
+    "sdkVersion": "27.0.0",
+    "ios": {
+      "bundleIdentifier": "com.yunko.tapPromise",
+      "config":{
+        "googleSignIn": {
+          "reservedClientId":"com.googleusercontent.apps.643025550778-ckfmbjaho7prm79ki4atosc0agvk1hv1"
+        }
+      }
+    },
+    "android": {
+      "package": "com.yunko.tapPromise",
+      "config":{
+        "googleSignIn":{
+          "certificateHash":"B026C4D927486441EEE145EA5A0663D134A9B3D7"
+        }
+      }
+    }
+  }
+}
